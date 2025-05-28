@@ -10,7 +10,7 @@ volume_size: 30gb
 5000  -> backend
 27017 -> mongodb
 8081  -> mongodb-express
-30007 -> nodeport for frontend
+30007 -> nodeport_for_frontend
 ```
 
 ### Install docker in ec2:
@@ -23,8 +23,8 @@ docker images
 
 ### To install minikube and kubectl:
 ```sh
-minikube_ link: 
-kubectl_link:
+minikube_ link : https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download
+kubectl_link   : https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-kubectl-binary-with-curl-on-linux
 ```
 
 ### Build & push docker images:
